@@ -1,0 +1,47 @@
+
+
+===========================================
+        ELECTRONIC MEDICAL RECORD
+===========================================
+
+Patient Name : Rahul
+Age          : 35
+Gender       : Male
+
+Symptoms
+---------
+fever, cough
+
+Diagnosis
+---------
+viral fever
+
+Prescription
+------------
+Medicine   : Paracetamol
+Dosage     : Not Available
+Frequency  : Twice Daily
+Duration   : 5 Days
+
+Advice
+------
+Drink Plenty of Water
+
+Follow-up
+---------
+5 Days
+
+Blood Pressure
+--------------
+Not Available
+
+Sugar Level
+-----------
+140 mg/dL
+
+Visit Date
+----------
+06-07-2026
+
+===========================================
+

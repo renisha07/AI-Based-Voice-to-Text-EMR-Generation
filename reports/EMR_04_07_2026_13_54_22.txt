@@ -1,0 +1,26 @@
+
+===========================================
+      ELECTRONIC MEDICAL RECORD
+===========================================
+
+Patient Name : Rahul
+Age          : 35
+Gender       : Male
+
+Symptoms
+---------
+fever, cough
+
+Diagnosis
+---------
+Not Available
+
+Prescription
+------------
+paracetamol
+
+Visit Date
+----------
+04-07-2026
+
+===========================================

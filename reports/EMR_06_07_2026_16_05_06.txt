@@ -1,0 +1,47 @@
+
+
+===========================================
+        ELECTRONIC MEDICAL RECORD
+===========================================
+
+Patient Name : 
+Age          : 35
+Gender       : 
+
+Symptoms
+---------
+fever, cough
+
+Diagnosis
+---------
+Not Available
+
+Prescription
+------------
+Medicine   : Paracetamol
+Dosage     : 500 MG
+Frequency  : Twice Daily
+Duration   : Not Available
+
+Advice
+------
+Not Available
+
+Follow-up
+---------
+5 Days
+
+Blood Pressure
+--------------
+120/80
+
+Sugar Level
+-----------
+140 mg/dL
+
+Visit Date
+----------
+06-07-2026
+
+===========================================
+

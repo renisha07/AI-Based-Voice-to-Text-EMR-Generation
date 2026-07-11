@@ -6,7 +6,7 @@ def connect_database():
             host="localhost",
             database="emr_project",
             user="postgres",
-            password="reni07"
+            password="********"
         )
 
         print("✅ Connected to PostgreSQL successfully!")

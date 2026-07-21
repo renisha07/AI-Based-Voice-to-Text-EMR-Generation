@@ -284,6 +284,62 @@ ttk.Button(
     command=search_existing_patient
 ).pack(side=LEFT, padx=10)
 # ==========================================
+# Voice Recording
+# ==========================================
+
+voice_card = ttk.Labelframe(
+    app,
+    text="🎤 Voice Recording",
+    bootstyle="info"
+)
+
+voice_card.pack(fill=X, padx=20, pady=3)
+
+record_status = ttk.Label(
+    voice_card,
+    text="🟢 Ready to Record",
+    font=("Segoe UI", 11, "bold"),
+    bootstyle="success"
+)
+
+record_status.grid(row=0, column=0, padx=20, pady=15)
+
+btn_record = ttk.Button(
+    voice_card,
+    text="🎤 Start Recording",
+    bootstyle="success",
+    width=20,
+    command=record_consultation
+)
+
+btn_record.grid(row=0, column=1, padx=10)
+
+btn_stop = ttk.Button(
+    voice_card,
+    text="⏹ Stop",
+    bootstyle="danger",
+    width=15
+)
+
+btn_stop.grid(row=0, column=2, padx=10)
+
+progress = ttk.Progressbar(
+    voice_card,
+    length=250,
+    mode="indeterminate",
+    bootstyle="success-striped"
+)
+
+progress.grid(row=0, column=3, padx=20)
+
+timer_label = ttk.Label(
+    voice_card,
+    text="00:00",
+    font=("Consolas", 14, "bold")
+)
+
+timer_label.grid(row=0, column=4, padx=10)
+# ==========================================
 # Main Frames
 # ==========================================
 
@@ -420,62 +476,7 @@ txt_advice = Text(
 )
 
 txt_advice.grid(row=2, column=1, padx=10, pady=5)
-# ==========================================
-# Voice Recording
-# ==========================================
 
-voice_card = ttk.Labelframe(
-    app,
-    text="🎤 Voice Recording",
-    bootstyle="info"
-)
-
-voice_card.pack(fill=X, padx=20, pady=3)
-
-record_status = ttk.Label(
-    voice_card,
-    text="🟢 Ready to Record",
-    font=("Segoe UI", 11, "bold"),
-    bootstyle="success"
-)
-
-record_status.grid(row=0, column=0, padx=20, pady=15)
-
-btn_record = ttk.Button(
-    voice_card,
-    text="🎤 Start Recording",
-    bootstyle="success",
-    width=20,
-    command=record_consultation
-)
-
-btn_record.grid(row=0, column=1, padx=10)
-
-btn_stop = ttk.Button(
-    voice_card,
-    text="⏹ Stop",
-    bootstyle="danger",
-    width=15
-)
-
-btn_stop.grid(row=0, column=2, padx=10)
-
-progress = ttk.Progressbar(
-    voice_card,
-    length=250,
-    mode="indeterminate",
-    bootstyle="success-striped"
-)
-
-progress.grid(row=0, column=3, padx=20)
-
-timer_label = ttk.Label(
-    voice_card,
-    text="00:00",
-    font=("Consolas", 14, "bold")
-)
-
-timer_label.grid(row=0, column=4, padx=10)
 # ==========================================
 # Action Buttons
 # ==========================================
